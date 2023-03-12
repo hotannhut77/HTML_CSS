@@ -1,0 +1,164 @@
+/* Reset CSS */
+* {
+  box-sizing: inherit;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0px;
+}
+
+/* main */
+/* header */
+
+/* nav */
+.nav {
+  height: 62px;
+  background-color: #fff;
+  margin: 0px 76px;
+  padding: 0px 8px;
+}
+
+.nav .nav-left {
+  float: left;
+}
+
+.nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav ul li {
+  display: inline-block;
+  line-height: 62px;
+}
+
+.nav ul li:hover {
+  opacity: 0.6;
+}
+
+.nav ul li + li {
+  padding-left: 30px;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(90, 88, 88);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav .nav-right {
+  float: right;
+}
+
+/* banner */
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner .heading {
+  position: absolute;
+  /* CODE CÓ LIÊN QUAN ĐẾN PHẦN NÂNG CAO */
+  top: 158px;
+  left: 76px;
+  color: #fff;
+}
+
+.heading h1 {
+  font-size: 67px;
+  margin: 0px;
+}
+
+.heading p {
+  font-size: 26px;
+  margin: 0px;
+}
+
+/* content */
+.content {
+  background-color: #efefef;
+  border-bottom: 1px solid #ccc;
+  margin-top: -20px;
+  padding: 30px 54px;
+}
+
+.content .content-text {
+  padding: 10px 0px 0px 22px;
+}
+
+.content .content-text h2 {
+  font-size: 30px;
+  opacity: 0.6;
+  margin: 20px 0px 0px 0px;
+}
+
+.content .content-text p {
+  font-size: 18px;
+}
+
+.content .img-list {
+  margin: -18px 0px;
+}
+
+.img-list .column {
+  width: 33.33%;
+  float: left;
+  padding: 0px 22px;
+}
+
+.column img {
+  width: 100%;
+  margin: 17.2px 0px;
+}
+
+.img-list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* footer */
+.footer {
+  background-color: #f7f7f7;
+  padding: 0px 54px;
+}
+
+.footer .footer-item {
+  float: left;
+  width: 33.33%;
+  padding: 30px 22px 70px 22px;
+}
+
+.footer-item h3 {
+  font-size: 25px;
+  margin: 14px 0px;
+}
+
+.footer-item p {
+  font-size: 18px;
+  margin: 12px 0px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #07b2ff;
+  font-weight: 900;
+}

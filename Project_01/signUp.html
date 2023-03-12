@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<style>
+		.form{
+			margin: 20px auto;
+			padding: 10px;
+			width: 400px;
+			background-color: aqua;
+		}
+		.form-group{
+			display: flex;
+			padding: 12px;
+		}
+		.form-group label{
+			min-width: 80px;
+		}
+		.form-group input{
+			flex: 1;
+		}
+		input[type="submit"]{
+			min-width: 80px;
+			min-height: 30px;
+			margin-left: 77%;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		<form action="">
+			<div class="form-group">
+				<label for="">Email</label>
+				<input type="email" placeholder="Email" required name="" id="">
+			</div>
+			<div class="form-group">
+				<label for="">User name</label>
+				<input required placeholder="User name" type="text">
+			</div>
+	
+			<div class="form-group">
+				<label for="">Password</label>
+				<input required placeholder="Password" type="password" name="" id="">
+			</div>
+
+			<div class="form-group">
+				<label for="">Confirm</label>
+				<input required placeholder="Confirm password" type="password" name="" id="">
+			</div>
+			<input type="submit" value="Log In">
+		</form>
+	</div>
+</body>
+</html>

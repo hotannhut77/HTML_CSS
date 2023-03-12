@@ -1,0 +1,35 @@
+1. Đọc chủ yếu 2 file "NOTE" và "OnTapReview". đặc biệt là file "NOTE" và tra thêm trên mạng từ các từ khóa a đưa ra nha !
+2. xem qua và có thể làm các project 1,2,3,4. Có bài nào khó cứ hỏi anh !
+3. Đọc qua cái nào k hiểu thì hỏi anh 2, anh giải thích cho
+4. Như anh đã nói, môn này cần nắm các phần sau là chủ chốt
+
+- Thứ 1 : Nắm được các thẻ cơ bản và thông dụng của HTML ( tầm 20-30 thẻ là ok rồi) , 
+còn lại lúc dùng có quên thì có thể tra google.
+
+- Thứ 2 : nắm được bố cục và cách phân chia bố cục cho 1 trang web, biết cách dùng thẻ gì cho phần đó, từ đó
+có thể thiết kế và làm dể dàng
+
+- Thứ 3 : nắm được các khái niệm cơ bản, cốt lõi sau: ( các phần này phải nắm cực chắc nhá)
+	+ các thành phần của Box model : margin, border, padding, conttent . nắm để sử lý về kích thước các khối.
+	+ các khái niệm về : thế nào là block, inline, inline-block, sự khác nhau của chúng,
+		các thẻ nào là block, các thẻ nào là inline,..(lưu ý có thể tự chinhe sửa thuộc tính này được bằng 
+		thuộc tính CSS là display : block, inline, inline-block, none,.. nhá !!! ).
+
+- Thứ 4 : nắm được các bộ chọn thẻ CSS selector thông dụng hay dùng, và các thuộc tính cơ bản thông dụng
+	hay dùng, còn lại nếu k nhớ có thể search google nhanh thôi ( vd : search với từ khóa : display css )
+
+- Thứ 5 : nắm được một số các thuộc tính CSS nâng cao hay dùng như : float, position, flex, animation, transion,..
+	Phần này nắm bản chất kĩ, rồi thực hành nhiều sẽ quen chứ k phải học thuộc lòng, vì ta có thể tra google nếu
+	quên, nhưng bản chất và cách dùng là nên nắm.
+
+- Thứ 6 : Học thêm về Boostrap 5 ( cực kì hữu dụng nhé, phải học, phải học, vì nó giúp ta làm web tăng 200% tốc độ đó !!!)
+
+- Thứ 7 : Và cuối cùng : lưu ý khi học môn này: k nên học thuộc lòng, mà nên nắm bản chất ( khá dể ) và thực hành nhiều xí, 
+	 tự ra các đề, các dạng mà ta chưa gặp chưa xử lý và xử lý nó, làm các module nhỏ nhỏ thôi, sau đó có kinh nghiệm,
+	khi làm 1 trang web lớn hoàn chỉnh ta sẽ biết cách làm nhanh thôi. và thêm nữa là kĩ năng tìm kiếm google và
+	kĩ năng "note ghi chú" sẽ giúp nhớ lâu. Môn này là môn đơn giản nhất trong ngành web, nếu muốn đi theo hướng web hay 
+	ứng dụng web. Nhưng nó là nền tảng cực cực quan trọng. Cố lên nhé !!!
+
+
+Link : trang web học về lý thuyết : https://www.w3schools.com/
+trang website học về thực hành : https://www.freecodecamp.org/
